@@ -1,0 +1,18 @@
+.head{
+    width: 80%;
+    background:tomato;
+    color:white;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px 0px;
+}
+#countries{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.rom{
+    border-radius: 10px;
+    border:2px solid rgb(54, 218, 21);
+    padding: 20px;
+    margin: 10px;
+}
